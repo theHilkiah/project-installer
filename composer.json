@@ -33,6 +33,11 @@
     "bin": [ 
         "bin/inst" 
     ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.1.x-dev"
+        }
+    },
     "prefer-stable": true,
     "minimum-stability": "dev"
 }
