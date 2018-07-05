@@ -1,20 +1,20 @@
 <?php
 
 return [
-			"www.skywest.com"  => [
-				'https' => "https://github.com/skywestairlines/www.skywest.com.git",
-				'ssh'   => "git@github.com:skywestairlines/www.skywest.com.git"
+			"user-manager"  => [
+				'https' => "https://github.com/theHilkiah/user-manager.git",
+				'ssh'   => "git@github.com:theHilkiah/project-installer.git"
 			],
-			"inc.skywest.com"  => [
-				'https' => "https://github.com/skywestairlines/inc.skywest.com.git",
-				'ssh'   => "git@github.com:skywestairlines/inc.skywest.com.git"
+			"neo-framework"  => [
+				'https' => "git@github.com:theHilkiah/neo-framework.git",
+				'ssh'   => "git@github.com:theHilkiah/neo-framework.git"
 			],
-			"blog.skywest.com" => [
-				'https' => "https://github.com/skywestairlines/blog.skywest.com.git",
-				'ssh'   => "git@github.com:skywestairlines/blog.skywest.com.git"
+			"express-js-app" => [
+				'https' => "git@github.com:theHilkiah/express-js-app.git",
+				'ssh'   => "git@github.com:theHilkiah/express-js-app.git"
 			],
-			"www.miniindy.org" => [
-				'https' => "https://github.com/skywestairlines/www.miniindy.org.git",
-				'ssh'   => "git@github.com:skywestairlines/www.miniindy.org.git"
+			"package-installer" => [
+				'https' => "git@github.com:theHilkiah/project-installer.git",
+				'ssh'   => "git@github.com:theHilkiah/project-installer.git"
 			]
       ];
