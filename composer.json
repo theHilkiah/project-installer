@@ -32,7 +32,5 @@
     },
     "bin": [ 
         "bin/inst" 
-    ],
-    "prefer-stable": true,
-    "minimum-stability": "dev"
+    ]
 }
