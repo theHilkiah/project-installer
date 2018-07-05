@@ -1,0 +1,38 @@
+{
+    "name": "thehilkiah/project-installer",
+    "description": "Installation package for all your composer specific projects.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hilkiah Makemo",
+            "email": "hilmak01@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "INST\\": "src/"
+        }
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "inst || true",
+            "composer dumpautoload"
+        ],
+        "post-create-project-cmd": [
+            "composer update",
+            "@post-update-cmd"
+        ],
+        "post-install-cmd": [
+            "@post-update-cmd"
+        ]
+    },
+    "bin": [ 
+        "bin/inst" 
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
