@@ -103,7 +103,7 @@ class ProjectInstaller
 		}
 
 		print "\n\nWhat package would you like to clone?\n";
-		print "(Type number in [n] to select; type 0 or leave blank to abort):\n";
+		print "(Type number in [n] to select; type 'x' to specify your own; or type 0 (or leave blank) to abort):\n";
 
 		print "\n\tRepository: >>> ";
 		$n  = (int)trim(fgets($handle));
@@ -114,6 +114,12 @@ class ProjectInstaller
 		switch ($n){
 			case 0:
 			exit("Wrong input, or you've selected to cancel this operation. Aborting!...\n\r");
+			break;
+		        
+			case 'x':
+			print "\n\tRepository: >>> ";
+			$repo  = trim(fgets($handle));
+			print "\n";
 			break;
 
 			case ($n <= $count):
