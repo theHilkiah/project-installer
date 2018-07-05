@@ -12,7 +12,7 @@ At the command prompt type (or just copy and paste the line):
         composer global require thehilkiah/project-installer dev-master --prefer-source
   
 This will install the "inst" command on the composer global space. When prompted follow the instructions to complete.
-### !IMPORTANT
+### !!!IMPORTANT!!!
 After installation, go to lib/packages and add all repositories you wish to run using this command
 
 ## Usage
