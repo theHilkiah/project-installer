@@ -20,7 +20,7 @@ class ProjectInstaller
 
 		print "\n==================================================================================\n";
 		print "\n\t";
-		print "\t\PROJECT INSTALLER, v1.0";
+		print "\t\ GIT REPOSITORY/PROJECT INSTALLER, v1.0";
 		print "\n\t";
 		print "\n==================================================================================\n";
 
